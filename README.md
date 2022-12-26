@@ -9,4 +9,6 @@
         │   └───Sequence Diagram
         └───SRS
             ├───Activity Diagram
-            └───Usecase Diagram
+            ├───Usecase Diagram
+            └───SRS.pdf
+            
