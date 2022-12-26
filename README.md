@@ -8,5 +8,5 @@
         │   ├───Communication Diagram
         │   └───Sequence Diagram
         └───SRS
-            ├───ActivityDiagram
+            ├───Activity Diagram
             └───Usecase Diagram
