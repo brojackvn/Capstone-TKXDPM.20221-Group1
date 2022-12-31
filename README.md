@@ -14,12 +14,13 @@
 
 **Week01**: Usecase Analysis (Analysis Class Diagram) + Usecase Design (Interface Design, Class Design)
 
-    Week2
-    ├───Analysis Class Diagram
-    ├───Class Design
-    │   ├───RelationalClass
-    │   └───RelationalException
-    └───Interface Design
-        └───Interbank
-            ├───Analysis Class Diagram
-            └───Sequence Diagram
+    Documentation
+    └───Week2
+        ├───Analysis Class Diagram
+        ├───Class Design
+        │   ├───RelationalClass
+        │   └───RelationalException
+        └───Interface Design
+            └───Interbank
+                ├───Analysis Class Diagram
+                └───Sequence Diagram
