@@ -12,7 +12,7 @@
             ├───Usecase Diagram
             └───SRS.pdf
 
-**Week01**: Usecase Analysis (Analysis Class Diagram) + Usecase Design (Interface Design, Class Design)
+**Week02**: Usecase Analysis (Analysis Class Diagram) + Usecase Design (Interface Design, Class Design)
 
     Documentation
     └───Week2
