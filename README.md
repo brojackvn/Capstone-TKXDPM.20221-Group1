@@ -18,7 +18,8 @@
     └───Week2
         ├───Analysis Class Diagram
         ├───Class Design
-        │   ├───RelationalClass
+        │   ├───GeneralDesign
+        |   ├───RelationalClass
         │   └───RelationalException
         └───Interface Design
             └───Interbank
