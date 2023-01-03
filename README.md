@@ -17,6 +17,7 @@
     Week2
     ├───Analysis Class Diagram
     ├───Class Design
+    |   ├───GeneralDesign
     │   ├───RelationalClass
     │   └───RelationalException
     └───Interface Design
