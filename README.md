@@ -25,3 +25,13 @@
             └───Interbank
                 ├───Analysis Class Diagram
                 └───Sequence Diagram
+
+**Week03**: Usecase Design (Data Modeling)
+    Documentation
+    └───Week3
+        └───Data Modeling
+            ├───E-R Diagram
+            ├───Database Diagram
+            └───Physical Data Modeling
+            
+            
