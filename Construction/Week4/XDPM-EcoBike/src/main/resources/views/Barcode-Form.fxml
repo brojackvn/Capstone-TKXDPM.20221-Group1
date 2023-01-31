@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" styleClass="white-color" stylesheets="@../assets/css/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="152.0" prefWidth="200.0" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="logo" fitHeight="152.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/eco.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="152.0" prefWidth="386.0" />
+                  <Text fill="#fefefe" strokeType="OUTSIDE" strokeWidth="0.0" text="BARCODE">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Text>
+               </children>
+               <styleClass>
+                  <String fx:value="green-color" />
+                  <String fx:value="radius-app" />
+               </styleClass>
+               <padding>
+                  <Insets left="131.0" />
+               </padding>
+            </HBox>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="barcode" prefHeight="46.0" prefWidth="940.0" promptText="Type BARCODE here" style="-fx-text-fill: #00a13f; -fx-prompt-text-fill: #a2ebbf; -fx-text-box-border: #00a13f; -fx-focus-color: #00a13f;" styleClass="radius-app" stylesheets="@../assets/css/style.css">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="60.0" left="300.0" right="300.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <Button fx:id="submit" mnemonicParsing="false" prefHeight="45.0" prefWidth="150.0" text="Submit" textFill="#fefefe">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                     <styleClass>
+                        <String fx:value="green-color" />
+                        <String fx:value="radius-app" />
+                     </styleClass>
+                  </Button>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

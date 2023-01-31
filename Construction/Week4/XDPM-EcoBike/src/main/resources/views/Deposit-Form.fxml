@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="152.0" prefWidth="200.0" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="logo" fitHeight="152.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/eco.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="152.0" prefWidth="386.0" />
+                  <Label prefHeight="53.0" prefWidth="257.0" text="Deposit Form" textFill="#fefefe">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="radius-app" />
+                  <String fx:value="green-color" />
+               </styleClass>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <padding>
+                  <Insets left="131.0" />
+               </padding>
+            </HBox>
+         </top>
+         <left>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fx:id="bikeName" fill="#fefefe" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="230.13671875">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" right="10.0" />
+                     </VBox.margin>
+                  </Text>
+                  <ImageView fx:id="bikeImage" fitHeight="184.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/xe8.jpg" />
+                     </image>
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="25.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="20.0" />
+               </BorderPane.margin>
+               <styleClass>
+                  <String fx:value="green-color" />
+                  <String fx:value="radius-app" />
+               </styleClass>
+            </VBox>
+         </left>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="217.0" text="Deposit fee" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="depositFee" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="403.0000464916229">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="220.0" text="Cardholder name" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="cardholderName" prefHeight="40.0" prefWidth="780.0" style="-fx-text-fill: #00a13f; -fx-text-box-border: #00a13f; -fx-focus-color: #00a13f;" styleClass="radius-app" stylesheets="@../assets/css/style.css">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="220.0" text="Card number" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="cardNumber" prefHeight="40.0" prefWidth="780.0" style="-fx-text-fill: #00a13f; -fx-text-box-border: #00a13f; -fx-focus-color: #00a13f;" styleClass="radius-app" stylesheets="@../assets/css/style.css">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="220.0" text="Expiration date" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="expirationDate" prefHeight="40.0" prefWidth="780.0" style="-fx-text-fill: #00a13f; -fx-text-box-border: #00a13f; -fx-focus-color: #00a13f;" styleClass="radius-app" stylesheets="@../assets/css/style.css">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="220.0" text="Security code" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <PasswordField fx:id="securityCode" prefHeight="40.0" prefWidth="780.0" style="-fx-focus-color: #00a13f; -fx-text-box-border: #00a13f; -fx-text-fill: #00a13f;" styleClass="radius-app" stylesheets="@../assets/css/style.css">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </PasswordField>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="66.0" prefWidth="1025.0">
+                     <children>
+                        <Button fx:id="submit" alignment="CENTER" mnemonicParsing="false" prefHeight="53.0" prefWidth="160.0" stylesheets="@../assets/css/style.css" text="Submit" textFill="#fefefe">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="green-color" />
+                              <String fx:value="radius-app" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets right="15.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="20.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
