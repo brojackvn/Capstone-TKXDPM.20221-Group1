@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="152.0" prefWidth="200.0" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="logo" fitHeight="152.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/eco.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="152.0" prefWidth="386.0" />
+                  <Label prefHeight="56.0" prefWidth="217.0" text="Renting Bike" textFill="#fefefe">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <styleClass>
+                  <String fx:value="green-color" />
+                  <String fx:value="radius-app" />
+               </styleClass>
+               <padding>
+                  <Insets left="131.0" />
+               </padding>
+            </HBox>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="white-color" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="27.0" prefWidth="130.0" text="Name" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="name" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="350.0">
+                           <font>
+                              <Font name="System Italic" size="18.0" />
+                           </font>
+                        </Text>
+                        <Pane prefHeight="200.0" prefWidth="100.0" />
+                        <Label prefHeight="27.0" prefWidth="130.0" text="Deposit Fee" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="depositFee" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="350.0">
+                           <font>
+                              <Font name="System Italic" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="32.0" prefWidth="130.0" text="Total fee" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="totalFee" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="350.0">
+                           <font>
+                              <Font name="System Italic" size="18.0" />
+                           </font>
+                        </Text>
+                        <Pane prefHeight="200.0" prefWidth="100.0" />
+                        <Label prefHeight="27.0" prefWidth="130.0" text="Time" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="time" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="350.0">
+                           <font>
+                              <Font name="System Italic" size="18.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="copyBarcode" mnemonicParsing="false" prefHeight="53.0" prefWidth="160.0" stylesheets="@../assets/css/style.css" text="Copy barcode" textFill="#fcf7f7">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="green-color" />
+                              <String fx:value="radius-app" />
+                           </styleClass>
+                           <HBox.margin>
+                              <Insets right="50.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button fx:id="pause" mnemonicParsing="false" prefHeight="53.0" prefWidth="121.0" stylesheets="@../assets/css/style.css" text="Pause" textFill="#fcf9f9">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="green-color" />
+                              <String fx:value="radius-app" />
+                           </styleClass>
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="25.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

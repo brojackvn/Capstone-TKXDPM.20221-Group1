@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="768.0" prefWidth="1366.0">
+         <top>
+            <HBox alignment="CENTER_LEFT" prefHeight="152.0" prefWidth="200.0" styleClass="green-color" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="logo" fitHeight="152.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../assets/image/eco.png" />
+                     </image>
+                  </ImageView>
+                  <Pane prefHeight="152.0" prefWidth="386.0" />
+                  <Label prefHeight="53.0" prefWidth="266.0" text="Payment" textFill="#fefefe">
+                     <font>
+                        <Font name="System Bold" size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets left="131.0" />
+               </padding>
+            </HBox>
+         </top>
+         <left>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" stylesheets="@../assets/css/style.css" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fx:id="bikeName" fill="#fefefe" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" textAlignment="CENTER" wrappingWidth="296.13671875">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </Text>
+                  <ImageView fx:id="bikeImage" fitHeight="184.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true">
+                     <VBox.margin>
+                        <Insets left="15.0" right="15.0" top="25.0" />
+                     </VBox.margin>
+                  </ImageView>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="20.0" />
+               </BorderPane.margin>
+               <styleClass>
+                  <String fx:value="green-color" />
+                  <String fx:value="radius-app" />
+               </styleClass>
+            </VBox>
+         </left>
+         <center>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="217.0" text="Deposit fee" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="depositFee" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="694.13671875">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="217.0" text="Time" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="time" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="721.3367919921875">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="217.0" text="Refund" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="rentalFee" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="721.3367919921875">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="35.0" prefWidth="217.0" text="Rental fee" textFill="#00a13f">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                        </Label>
+                        <Text fx:id="refund" fill="#00a13f" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="697.936767578125">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Button fx:id="returnButton" mnemonicParsing="false" prefHeight="53.0" prefWidth="160.0" stylesheets="@../assets/css/style.css" text="Return" textAlignment="CENTER" textFill="#fefefe">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                           <styleClass>
+                              <String fx:value="radius-app" />
+                              <String fx:value="green-color" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                     <VBox.margin>
+                        <Insets right="15.0" />
+                     </VBox.margin>
+                  </HBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="15.0" left="15.0" right="15.0" top="20.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
