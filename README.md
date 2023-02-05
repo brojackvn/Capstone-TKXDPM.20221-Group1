@@ -35,3 +35,15 @@
             ├───Database Diagram
             └───Physical Data Modeling
 
+**Week04**: Construction (Coding + Unit test)
+
+Link demo app: [Eco Bike](https://drive.google.com/file/d/1dW47J6Sw5fFa3RkvYK4AO6YJsKQByOO5/view?usp=share_link)
+
+    source
+    └───XDPM-EcoBike
+    demo
+    └───path2demo.txt
+
+
+
+
