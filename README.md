@@ -34,10 +34,4 @@
             ├───E-R Diagram
             ├───Database Diagram
             └───Physical Data Modeling
-            
-**Week04**: Construction (Coding, Unit test)
-
-    Construction
-    └───Week4
-        └───XDPM-Ecobike
 
